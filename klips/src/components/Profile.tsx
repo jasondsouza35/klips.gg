@@ -1,10 +1,14 @@
-import { Avatar } from "@mui/material"
+import { Avatar, Box, Container, Toolbar, Typography } from "@mui/material"
+import AdbIcon from '@mui/icons-material/Adb';
 
 const Profile = () => {
-    return (
-        <>
-            <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" sx= {{ width: 56, height: 56 }}/>
-        </>
+    return (        
+        <Container maxWidth='xl'>    
+            <Box display="flex" flexDirection="row" justifyContent="space-between">
+                <Box><AdbIcon /></Box>
+                <Box>hiasodfi</Box> 
+            </Box>         
+        </Container>   
     )
 }
 
