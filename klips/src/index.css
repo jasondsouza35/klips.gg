@@ -15,11 +15,12 @@
 
 
 body {
-  margin: 0;
+  margin-top: 6rem;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
   background-color: #242424;
   justify-content: center;
+  align-items: flex-start;
 }
