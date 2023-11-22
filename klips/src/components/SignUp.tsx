@@ -55,6 +55,16 @@ export default function SignUp({ open, handleClose }: SignUpProps) {
               margin="normal"
               required
               fullWidth
+              id="username"
+              label="Username"
+              name="Username"
+              autoComplete="User Name"
+              autoFocus
+            />
+            <TextField
+              margin="normal"
+              required
+              fullWidth
               id="email"
               label="Email Address"
               name="email"
