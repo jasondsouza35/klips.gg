@@ -9,8 +9,8 @@ const Profile = () => {
                 <Grid item >
                     <Avatar src="/broken-image.jpg" sx={{ width: 300, height: 300 }} />
                 </Grid>
-                <Grid item sx={{ display: 'flex' }}>
-                    <Box sx={{ display: 'flex', justifyContent: 'center', flexDirection: 'column'}}> 
+                <Grid item rowSpacing={1} sx={{ display: 'flex', justifyContent: 'center', flexDirection: 'column' }}>
+                    {/* <Box sx={{ display: 'flex', justifyContent: 'center', flexDirection: 'column'}}>  */}
                         <Typography 
                             variant="h1"
                             sx={{
@@ -22,10 +22,18 @@ const Profile = () => {
                         >
                                 UrineBigTrouble
                         </Typography>
-                        <div>UrineBigTrouble</div>
-                        <div>Games on Rotation: League of Legends, Valorant, Fortnite</div>
-                        <div>Trying to hit diamond 4 on league!</div>
-                    </Box>
+                        <Box sx={{ display: 'inline-flex', paddingX: 1 }}>
+                            <Typography 
+                                sx={{
+                                    color: "#EA3F3F",
+                                }}
+                            >
+                                    Games on Rotation:  
+                            </Typography>
+                            <Typography>League of Legends, Valorant, Fortnite</Typography>
+                        </Box>
+                        <Box sx={{paddingX: 1}}>Trying to hit diamond 4 on league!</Box>
+                    {/* </Box> */}
                 </Grid>
 
             </Grid>
