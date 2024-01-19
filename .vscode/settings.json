@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "backend",
+        "klips-backend/src/main/java/com/example/klips/klipsbackend"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
